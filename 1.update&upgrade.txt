@@ -1,0 +1,6 @@
+sudo apt-get update && sudo apt-get upgrade -y
+
+####
+# I only show examples with debian/ubuntu based distros
+# you have to find others'(redhat, arch) main commands with google
+####

@@ -1,0 +1,28 @@
+
+
+sudo apt-get -y install gdebi bleachbit dconf-editor gksu deluge conky
+
+
+
+
+
+
+##disable guest login
+#on terminal type & enter
+gksu gedit /etc/lightdm/lightdm.conf
+
+#add these at the end
+	[SeatDefaults]
+
+	greeter-session=unity-greeter
+
+	allow-guest=false
+sudo
+#type & enter
+/etc/init.d/lightdm restart
+
+
+####
+# I only show examples with debian/ubuntu based distros
+# you have to find others'(redhat, arch) main commands with google
+####
