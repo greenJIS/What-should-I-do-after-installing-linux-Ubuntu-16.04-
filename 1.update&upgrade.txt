@@ -1,4 +1,4 @@
-sudo apt-get update && sudo apt-get upgrade -y
+sudo apt update && sudo apt upgrade -y
 
 ####
 # I only show examples with debian/ubuntu based distros
