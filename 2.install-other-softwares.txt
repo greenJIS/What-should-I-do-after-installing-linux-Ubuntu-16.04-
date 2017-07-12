@@ -1,6 +1,6 @@
 
 
-sudo apt-get -y install gdebi bleachbit dconf-editor gksu deluge conky
+sudo apt -y install gdebi ibus bleachbit dconf-editor gksu deluge conky p7zip-full gedit nethogs vlc browser-plugin-vlc inkscape gimp gimp-gmic synaptic 
 
 
 
@@ -21,8 +21,19 @@ sudo
 #type & enter
 /etc/init.d/lightdm restart
 
+## Installing Theme
+sudo add-apt-repository ppa:numix/ppa
+sudo apt-get update
+sudo apt-get install numix-icon-theme-circle
 
 ####
 # I only show examples with debian/ubuntu based distros
 # you have to find others'(redhat, arch) main commands with google
+####
+
+
+####
+# Additional Information
+# http://www.2daygeek.com/top-25-things-to-do-after-installing-linuxmint-18-sarah/
+# https://itsfoss.com/things-to-do-after-installing-linux-mint-18/
 ####
